@@ -1,11 +1,11 @@
 body
 {
-    width: 100%;
+    
     font-family: ;
     margin:0px;
     padding:0px;
     background-image: url(pexels-oruri-jacome-9482636.jpg);
-    background-size: auto;
+    
     
 }
     
@@ -13,12 +13,13 @@ body
 {
     background-color: bisque;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-around; 
     align-items:center;
-    height: 100px /*max-content*/ ;
+    height: 120px /*max-content*/ ;
+    width:;
+    margin:0;
     
-   
-}
+   }
 
 a
 {
@@ -32,12 +33,19 @@ a
     
 }
 
-.Reserver:hover
+.Connexion, .Menu
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:red;
+}
+.Connexion:hover
 {
     transform: scale(1.1);
 }
 
-.Menu, .Reserver {
+.Menu, .Connexion {
     transition:transform 2s;
 }
 
@@ -61,10 +69,25 @@ a
     height: 150px;
 }
 
-main
+.main
 {
-    
+    display: flex;
+    justify-content:center;
+}
 
+.main img
+{
+    display:flex;
+    margin:20px;
+    height: 600px;
+    width: 600px;
+
+}
+
+h2
+{
+    display:flex;
+    justify-content: center;
 }
 
 #footer
