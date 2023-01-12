@@ -1,13 +1,47 @@
-.header {
 
-    display:flex;
+body
+{
+
+    width: 100%;
+    font-family: ;
 }
 
-.banner
+.nav-bar
 {
-    background:white;
+    background-color: bisque;
     display:flex;
-    justify-content:space-evenly;
-    flex-direction:;
+    justify-content:space-around;
+    align-items:center;
+    height:max-content ;
+    
+   
+}
+
+
+a
+{
+    display:flex;
+    justify-content:center;
+    width: 20px;
+    height: 50px;
+    text-decoration:none;
+    font-family: ;
+    font-size: 40px;
+    
+}
+
+
+.Menu > img
+{
+    width:50px;
+    height: 50px;
+
+} 
+
+.logo, img
+{
+    display: flex;
+    justify-content: center;
+    justify-content: end;
 
 }
