@@ -15,9 +15,9 @@ body
     display:flex;
     justify-content:space-around; 
     align-items:center;
-    height: 120px /*max-content*/ ;
-    width:;
-    margin:0;
+    height: 120px /*max-content ;
+    width:; */
+    
     
    }
 
@@ -65,29 +65,60 @@ a
 {
     display: flex;
     justify-items: baseline;
-    
     height: 150px;
 }
 
-.main
+/*main*/
+
+.main 
+{
+    display:flex;
+    margin:30px;
+}
+
+.meal1
+{
+    height: 700px;
+    width : 700px;
+    margin: 20px;
+    object-fit: contain;
+
+}
+
+
+.intro
+{
+    display: block;
+    margin: 30px;
+    /*margin-top: 50px;
+    margin-right: 50px;
+    */
+}
+
+h1
+{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.section
 {
     display: flex;
-    justify-content:center;
-}
-
-.main img
-{
-    display:flex;
-    margin:20px;
-    height: 600px;
-    width: 600px;
-
-}
-
-h2
-{
-    display:flex;
     justify-content: center;
+}
+
+.V-logo 
+{
+    width: 100px;
+    height:100px;
+}
+
+p
+{
+    display: flex;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
 }
 
 #footer
