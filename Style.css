@@ -121,6 +121,27 @@ p
     font-size: 20px;
 }
 
+/*aside*/
+
+.aside
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.aside,.meal2, .meal3, .meal4
+{
+    display: flex;
+    height:300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+h2
+{
+    display: flex;
+}
+
 #footer
 {
     background-color: cadetblue;
