@@ -1,6 +1,5 @@
 body
 {
-    
     font-family: ;
     margin:0px;
     padding:0px;
@@ -21,15 +20,15 @@ body
     
    }
 
-a
-{
+.nav-bar a 
+{ 
     display:flex;
     justify-content:center;
     width: 20px;
     height: 50px;
     text-decoration:none;
     font-family: ;
-    font-size: 40px;
+    font-size: 30px; 
     
 }
 
@@ -56,8 +55,8 @@ a
 
 .Menu > img
 {
-    width:50px;
-    height: 50px;
+    width:40px;
+    height: 40px;
 
 } 
 
@@ -88,7 +87,7 @@ a
 
 .intro
 {
-    display: block;
+    display:flex;
     margin: 30px;
     /*margin-top: 50px;
     margin-right: 50px;
@@ -126,21 +125,79 @@ p
 .aside
 {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
-.aside,.meal2, .meal3, .meal4
+.aside img
 {
-    display: flex;
-    height:300px;
+    height: 300px;
     width: 300px;
-    object-fit: contain;
 }
 
-h2
+.favoris
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    font-weight: 300;
+    background-color: bisque;
+
+}
+
+.box
 {
     display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 30px;
 }
+
+.box img
+{
+    border-radius:30px;
+    height: 300px;
+    width: 300px;     
+       
+
+}
+
+.meal2 .meal3 .meal4
+{
+    height: 300px;
+    width: 300px;     
+    object-fit: contain;
+
+}
+
+
+
+.meal2
+{
+    display: flex;    
+    justify-content:space-between;
+    
+
+   }
+
+.meal3
+{
+    display: flex;    
+    justify-content:space-between;
+   
+    } 
+
+.meal4
+{
+    display: flex;     
+    justify-content:space-between;   
+   
+
+}
+
+
 
 #footer
 {
