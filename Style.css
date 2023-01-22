@@ -152,6 +152,7 @@ p
     width: 100%;
     height: 400px;
     margin-top: 70px;
+    margin-bottom: 70px;
     }
 
     figure img
@@ -177,14 +178,56 @@ a:link
     text-decoration: none;
 }
 
-.footer
+.iframe
 {
     display: flex;
-    flex-wrap:nowrap;
+    height: 300;
+    width:300 ;
+    margin-bottom: 100px;
+}
+.map
+{
+    display:flex;
+
+}
+
+
+.address
+{
+    display: flex;
     justify-content: center;
-    flex-direction:row;
-    background-color:#2b2d42;
-    height: 200px;
+    flex-direction:center;
+    width:500px;
+
+}
+
+.address-horaires
+{
+    display:flex;   
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+      
+}
+
+.address-horaires h4{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    }
+
+.site-footer
+{
+    display: flex;
+    background-color: bisque;
+    height: 100px;
+    width:100%;
     
+ }
+
+.site-footer .logo
+{
+    height:100px; 
+   
 }
 
