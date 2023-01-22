@@ -4,6 +4,7 @@ body
     margin:0px;
     padding:0px;
     background-image: url(pexels-oruri-jacome-9482636.jpg);
+    width: 100%;
     
     
 }
@@ -38,6 +39,7 @@ body
     justify-content:space-between;
     align-items:center;
     color:red;
+    
 }
 .Connexion:hover
 {
@@ -128,18 +130,13 @@ p
     flex-wrap: wrap;
     
 }
-.aside img
-{
-    height: 300px;
-    width: 300px;
-}
+ 
 
 .favoris
 {
     display:flex;
-    flex-wrap: wrap;
     justify-content:center;
-    height: 50px;
+    height:70px;
     width: 100%;
     font-size: large;
     font-weight: 300;
@@ -147,59 +144,47 @@ p
 
 }
 
-.box
+.content
 {
     display: flex;
+    flex-wrap: nowrap;
     justify-content:space-evenly;
     width: 100%;
-    margin-top: 30px;
-}
+    height: 400px;
+    margin-top: 70px;
+    }
 
-.box img
+    figure img
 {
-    border-radius:30px;
+    display:flex;
+    justify-content: space-around;
     height: 300px;
-    width: 300px;     
-       
-
+    width: 300px;
+    object-fit: contain; 
+    border-radius:5%;
+    box-shadow:10em;
 }
-
-.meal2 .meal3 .meal4
+   
+.content h3
 {
-    height: 300px;
-    width: 300px;     
-    object-fit: contain;
-
-}
-
-
-
-.meal2
-{
-    display: flex;    
-    justify-content:space-between;
+    display:flex;
+    justify-content: center;
     
-
-   }
-
-.meal3
-{
-    display: flex;    
-    justify-content:space-between;
-   
-    } 
-
-.meal4
-{
-    display: flex;     
-    justify-content:space-between;   
-   
-
 }
 
-
-
-#footer
+a:link
 {
-    background-color: cadetblue;
+    text-decoration: none;
 }
+
+.footer
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    flex-direction:row;
+    background-color:#2b2d42;
+    height: 200px;
+    
+}
+
