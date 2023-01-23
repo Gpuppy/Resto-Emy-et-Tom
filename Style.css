@@ -219,6 +219,7 @@ a:link
 .site-footer
 {
     display: flex;
+    justify-content:space-between;
     background-color: bisque;
     height: 100px;
     width:100%;
@@ -227,7 +228,23 @@ a:link
 
 .site-footer .logo
 {
-    height:100px; 
+    height:100px;
    
 }
+
+.site-footer > .socials
+{
+    
+    
+    
+}
+
+.socials
+{
+    display:flex;
+    align-items:center; 
+    height: 100px;
+
+}
+
 
