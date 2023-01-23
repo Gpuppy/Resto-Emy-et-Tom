@@ -25,17 +25,14 @@ body
 .nav-bar a 
 { 
     display:flex;
-    /*justify-content: space-around;*/
     width: auto;
     height: 50px;
     text-decoration:none;
     font-family: ;
-    font-size: 30px; 
+    font-size:25px; 
     margin-left: 4px;
     margin-right: 4px;
-    
-    
-}
+    }
 
 
 .Connexion, .Menu
@@ -43,7 +40,7 @@ body
     display:flex;
     align-items:center;
     color:black;
-    /*justify-content: space-between;*/
+      
     
 }
 .Connexion:hover
@@ -62,8 +59,8 @@ body
 
 .Menu > img
 {
-    width:40px;
-    height: 40px;
+    width:30px;
+    height: 30px;
 
 } 
 
@@ -125,8 +122,8 @@ h1
 p
 {
     display: flex;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family:'Caveat', cursive;
+    font-size: 25px;
 }
 
 /*aside*/
