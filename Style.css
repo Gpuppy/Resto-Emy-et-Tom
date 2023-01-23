@@ -8,29 +8,31 @@ body
     
     
 }
+
+
     
 .nav-bar
 {
     background-color: bisque;
     display:flex;
-    justify-content:space-between; 
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     height: 120px ;
-    width: 100%;
-    
-    
-    
-   }
+    width: 100%;  
+   
+    }
 
 .nav-bar a 
 { 
     display:flex;
-    justify-content:space-around
-    width: 20px;
+    /*justify-content: space-around;*/
+    width: auto;
     height: 50px;
     text-decoration:none;
     font-family: ;
     font-size: 30px; 
+    margin-left: 4px;
+    margin-right: 4px;
     
     
 }
@@ -39,9 +41,9 @@ body
 .Connexion, .Menu
 {
     display:flex;
-    justify-content:space-between;
     align-items:center;
     color:black;
+    /*justify-content: space-between;*/
     
 }
 .Connexion:hover
@@ -114,6 +116,8 @@ h1
 
 .V-logo 
 {
+    display:flex;
+    justify-items: center;
     width: 100px;
     height:100px;
 }
@@ -121,7 +125,7 @@ h1
 p
 {
     display: flex;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -207,7 +211,7 @@ a:link
 .address-horaires
 {
     display:flex;   
-    justify-content: center;
+    justify-content:first baseline;
     flex-direction: column;
     margin-bottom: 30px;
       
