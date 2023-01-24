@@ -29,7 +29,7 @@ body
     height: 50px;
     text-decoration:none;
     font-family: ;
-    font-size:25px; 
+    font-size: 1.5em; /*25px; */
     margin-left: 4px;
     margin-right: 4px;
     }
@@ -93,9 +93,7 @@ body
 {
     display:flex;
     margin: 30px;
-    /*margin-top: 50px;
-    margin-right: 50px;
-    */
+    
 }
 
 h1
@@ -121,9 +119,8 @@ h1
 
 p
 {
-    display: flex;
     font-family:'Caveat', cursive;
-    font-size: 25px;
+    font-size:1.6em /*25px*/;
 }
 
 /*aside*/
@@ -244,3 +241,41 @@ a:link
 }
 
 
+@media screen and (max-width: 700px) 
+{
+
+    .meal1
+{
+    height: 15em;
+    width : 15em;
+    margin: 20px;
+    object-fit: contain;
+
+}
+
+.intro
+{
+    display:flex;
+    justify-content: center;
+
+    
+}
+
+p
+{
+    font-size:1em ;
+}
+
+.section
+{
+
+    height:600px;
+    
+}
+
+h1
+{
+    size-adjust:;
+}
+
+}
