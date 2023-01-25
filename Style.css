@@ -276,8 +276,6 @@ a:link
 {
     display:flex;
     justify-content: center;
-
-    
 }
 
 p
@@ -285,11 +283,16 @@ p
     font-size:1em ;
 }
 
+.aside
+{
+    height: 400px;
+}
+
 .content
 {  
-    height: 150px;
-    margin-top:10px;
-    margin-bottom:10px;
+    height: 100%;
+    margin-top:0%;
+    margin-bottom:0%;
  }
 
 .section
@@ -306,12 +309,13 @@ figure img
     width: ;
 }
 
-.iframe
+.map .iframe
 {
-    height:2%;
-    width: 10%;
-    margin-bottom:0px;
-    object-fit:contain;
+   size: 20%;
+   width:40%;
+   margin-bottom:0px;
+   margin-left: 0px;
+   object-fit:contain; 
 }
 
 h3
@@ -319,14 +323,16 @@ h3
     font-size:1em;
 }
 
-h1
+.address-horaires h4
 {
-    size-adjust:;
+    font-size: 10em;
 }
 
-h5
+
+.address-horaires h5
 {
-    font-size:0.5em;
+    font-size:6em;
+    justify-content:flex-end;
 }
 
 .V-logo
@@ -334,4 +340,13 @@ h5
     width: 50px;
     height:50px;
 }
+
+.address-horaires
+{   
+    margin-bottom: 30px;
+    width:60%;
+    min-height: auto;
+    font-size: 0.1em; 
+    
 }
+
