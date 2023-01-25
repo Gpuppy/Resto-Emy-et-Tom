@@ -111,10 +111,19 @@ h1
 
 .V-logo 
 {
-    display:flex;
-    justify-items: center;
+    display:block;
+    justify-content: center;
     width: 100px;
     height:100px;
+    
+}
+
+img.V-logo 
+{
+    display:block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p
@@ -182,9 +191,9 @@ a:link
 .iframe
 {
     display: flex;
-    height: 300;
-    width:300 ;
-    margin-bottom: 100px;
+    width: auto;
+    margin-left:1em ;
+    margin-bottom: 5em ;/*100px;*/
 }
 .map
 {
@@ -205,17 +214,27 @@ a:link
 .address-horaires
 {
     display:flex;   
-    justify-content:first baseline;
+    justify-content:space-evenly;
     flex-direction: column;
     margin-bottom: 30px;
-      
+    width:70%;
+    min-height: auto;
 }
 
 .address-horaires h4{
     display: flex;
     justify-content: center;
     font-size:xx-large;
+    margin-bottom: auto;
     }
+
+.address-horaires h5{
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    margin: auto;
+    }
+
 
 .site-footer
 {
@@ -241,7 +260,7 @@ a:link
 }
 
 
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 900px) 
 {
 
     .meal1
@@ -266,11 +285,38 @@ p
     font-size:1em ;
 }
 
+.content
+{  
+    height: 150px;
+    margin-top:10px;
+    margin-bottom:10px;
+ }
+
 .section
 {
 
     height:600px;
+    display: none;
     
+}
+
+figure img
+{
+    height: 200px;
+    width: ;
+}
+
+.iframe
+{
+    height:2%;
+    width: 10%;
+    margin-bottom:0px;
+    object-fit:contain;
+}
+
+h3
+{
+    font-size:1em;
 }
 
 h1
@@ -278,4 +324,14 @@ h1
     size-adjust:;
 }
 
+h5
+{
+    font-size:0.5em;
+}
+
+.V-logo
+{
+    width: 50px;
+    height:50px;
+}
 }
