@@ -1,2 +1,4 @@
 document.getElementById ('menu');
-let menu = 
+let menu =
+
+addEventListener()

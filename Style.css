@@ -174,7 +174,7 @@ p
     object-fit: contain; 
     border-radius:5%;
     box-shadow:10em;
-}
+} 
    
 .content h3
 {
@@ -263,6 +263,21 @@ a:link
 @media screen and (max-width: 900px) 
 {
 
+    .nav-bar a 
+    { 
+        
+        font-size: 1.2em; /*25px; */
+        margin-left: 4px;
+        margin-right: 4px;
+        }
+    
+    
+   .Menu
+    {
+        font-size: 0.5em
+    }
+
+
     .meal1
 {
     height: 15em;
@@ -285,7 +300,9 @@ p
 
 .aside
 {
-    height: 400px;
+    height: ;
+    
+    
 }
 
 .content
@@ -305,8 +322,8 @@ p
 
 figure img
 {
-    height: 200px;
-    width: ;
+    height: 100px;
+    width:100px;
 }
 
 .map .iframe
@@ -350,3 +367,35 @@ h3
     
 }
 
+.site-footer
+{
+   height: 60px;
+
+    }
+    .site-footer .logo
+{
+    height:60px ;
+    flex-direction: center;
+}
+
+    .site-footer .logo img
+{
+    height:10px;
+    
+   
+}
+
+.socials
+{
+    height: auto;
+
+}
+
+.socials img
+{
+   
+    height:40px;
+    
+}
+
+}
