@@ -1,4 +1,13 @@
-document.getElementById ('menu');
-let menu =
+const menuButton= document.getElementById ('menu');
+const ul = document.getElementsByTagNameNS ('li')
 
-addEventListener()
+//btn.onclick = function openTab() {
+
+
+
+
+menuButton.addEventListener('onclick', () => {
+
+    li.classlist.button('active')
+    
+})
