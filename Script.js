@@ -1,13 +1,9 @@
-const menuButton= document.getElementById ('menu');
-const ul = document.getElementsByTagNameNS ('li')
-
-//btn.onclick = function openTab() {
-
-
-
-
-menuButton.addEventListener('onclick', () => {
-
-    li.classlist.button('active')
+$(".burger-menu ").on("click",".bar",function(){
+  
     
-})
+    $(".menu").slideToggle();
+    $(".bar").toggleClass('change');
+    $(".menu li").slideRight();
+  
+   });
+  

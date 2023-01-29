@@ -34,38 +34,91 @@ body
     font-size: 1.5em; 
     margin-left: 4px;
     margin-right: 4px;
-    }
+    } 
 
-    .inside-menu
+    .burger-menu
     {
        display: flex;
        justify-content: center;
        font-family: 'Noto Sans JP', sans-serif;
-       font-size:1.5em ;
-        
+       font-size:0.5em ;
+       margin:5px
+       
     }
+    .bar {
+        
+        transition:0.4s;
+       
+     }
+     
+     
+     
+     .bar-1 {
+       
+       width:5em;
+       display: block;
+       width: 40px;
+       border-top: 6px solid black;
+       padding-top:6px;
+       cursor:pointer;
+       transition:0.4s;
+     }
 
-    .inside-menu ul
+     .bar-2 {     
+        width:5em;
+        display: block;
+        width: 40px;
+        border-top: 6px solid black;
+        padding-top:5px;  
+        display:fixed;
+        transition:0.4s;
+        }
+      
+      
+        .bar-3 {  
+      
+        width:5em;
+        display: block;
+        width: 40px;
+        border-top: 6px solid black;
+        padding-top:5px;
+        transition:0.4s;
+      
+        }
+
+    .menu 
     {
-        display: flex;
-        justify-content:space-around ;  
+        height:100%;  
+        width:100%;
+        flex-direction: column;
+        justify-content:space-between ;
+        color:black;
+        text-align: center;
+        display:none;
+        transition: 0.5s;
+        z-index: 9999;
         
 
     }
-    .inside-menu li
+    .menu li
     {
-        display:inline;  
+        
         text-decoration: none;
         list-style:none;
-       display:none;
-    }
-
-    .inside-menu li a
-    {
+        padding-top:3em;
+        padding-bottom:3em;
+        backdrop-filter: blur(8px);
         
-    }
-    
-    .Connexion, .Menu
+  }
+
+  .menu li a
+  {
+    color:blue;
+  }
+
+
+
+    .Connexion, 
 {
     display:flex;
     align-items:center;
@@ -78,16 +131,16 @@ body
     transform: scale(1.1);
 }
 
-.Menu, .Connexion {
+.burger-menu, .Connexion {
     transition:transform 2s;
 }
 
-.Menu:hover 
+.burger-menu:hover 
 {
     transform: scale(1.1);
 }
 
-.Menu > img
+.burger-menu > img
 {
     width:30px;
     height: 30px;
@@ -99,6 +152,7 @@ body
     display: flex;
     justify-items: baseline;
     height: 150px;
+    
 }
 
 /*main*/
