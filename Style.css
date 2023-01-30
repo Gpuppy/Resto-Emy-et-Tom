@@ -22,6 +22,7 @@ body
     .nav-bar img 
     {
         height:7em;
+        
     }
 
 .nav-bar a 
@@ -150,6 +151,8 @@ body
 .logo
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-items: baseline;
     height: 150px;
     
@@ -261,9 +264,7 @@ p
     box-shadow:10em;
 } 
 
-img{
-    
-}
+
    
 .content h3
 {

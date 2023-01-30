@@ -1,0 +1,40 @@
+body
+{
+    font-family: ;
+    margin:0px;
+    padding:0px;
+    background-image: url(pexels-oruri-jacome-9482636.jpg);
+    width: 100%;
+    
+    
+}
+   
+.nav-bar
+{
+    background-color: bisque;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 250px ;
+    width: 100%;  
+   }
+
+   h1, h2
+   {
+    display:flex ;
+    justify-content: center;
+
+   }
+
+   table
+   {
+    
+      
+    width:1000px;    
+
+   }
+
+   td
+   {
+    
+   }

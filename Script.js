@@ -6,4 +6,6 @@ $(".burger-menu ").on("click",".bar",function(){
     $(".menu li").slideRight();
   
    });
+
+   $()
   
