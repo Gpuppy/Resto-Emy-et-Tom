@@ -389,14 +389,14 @@ p
 
 .aside
 {
-    height: ;
+    height:350px ;
     
     
 }
 
 .content
 {  
-    height: 100%;
+    height: 200px /*100%*/;
     margin-top:0%;
     margin-bottom:0%;
  }
@@ -419,6 +419,7 @@ figure img
 figure 
 {
     width: 55px;
+    height:100px;
 }
 
 .map .iframe
@@ -432,7 +433,7 @@ figure
 
 h3
 {
-    font-size:1em;
+    font-size:0.8em;
 }
 
 .address-horaires h4
@@ -456,6 +457,7 @@ h3
 .address-horaires
 {   
     margin-bottom: 30px;
+    margin-left: 25px;
     width:60%;
     min-height: auto;
     font-size: 0.1em; 
