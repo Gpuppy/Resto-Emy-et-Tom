@@ -23,18 +23,28 @@ body
    {
     display:flex ;
     justify-content: center;
+    color:aliceblue;
 
    }
 
    table
    {
-    
-      
-    width:1000px;    
+          
+    width: 1200px;;    
+    margin-left:200px;
+    margin-top: 50px;
 
+   }
+
+   tbody
+   {
+    
    }
 
    td
    {
-    
+    font-family:'Caveat', cursive ;
+    font-size: 30px;
+    font-weight: 500;
    }
+
