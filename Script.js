@@ -7,6 +7,13 @@ $(".burger-menu ").on("click",".bar",function(){
   
    });
 
-   $()
-  
-   fetch('');
+
+   $("#connection").on("click",function(){
+    
+
+   });
+
+  /* $(document).ready(function () {
+    
+    
+   });*/
