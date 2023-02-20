@@ -10,19 +10,18 @@
 
     <title>Document</title>
 </head>
-<body>
     <body class ="text-center">
 <main class="form-signin w-25 m-auto">
-  <form>
+  <form id = "form" action="" method="post">
     <img class="mb-4" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/866/8046671866_44d318d5-0f1d-4e48-bd5e-1b7fcea1ec36.png?cb=1673474665" alt="" width="120" height="100">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input id ="floatingInput" class="form-control" type="email" placeholder="name@example.com" required>
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" minlength="8" id="floatingPassword" placeholder="Password" required>
       <label for="floatingPassword">Password</label>
     </div>
 
@@ -32,10 +31,18 @@
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-info" type="submit">Sign in</button>
+    <h5>or</h5>
+    <button class="w-100 btn btn-lg btn-secondary" type="submit">Sign up</button> 
     <p class="mt-5 mb-3 text-muted">© 2017–2022</p>
   </form>
 </main>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src = "jQuery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+<script src= "Script.js"></script>
 </body>
 </html>
     
