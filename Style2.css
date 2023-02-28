@@ -121,10 +121,9 @@ p{
 
 .time-scale
 {
-   display:flex;
-   justify-content: space-between;
+   display:block;
+   justify-content: center;
    margin-top:50px;
-
 }
 
  .time-scale input
@@ -137,5 +136,12 @@ p{
 
 .midi, .soir
 {
-   display:flex;
+   display: flex;
+   justify-content: center;
+}
+
+.time-scale p
+{
+   display: flex;
+   justify-content: center;
 }

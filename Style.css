@@ -155,8 +155,7 @@ body
     align-items: center;
     justify-items: baseline;
     height: 150px;
-    
-    
+        
 }
 
 /*main*/
@@ -376,6 +375,13 @@ a:link
     object-fit: contain;
 
 }
+.section
+{
+
+    height:600px;
+    display: none;
+    
+}
 
 .intro
 {
@@ -390,26 +396,25 @@ p
 
 .aside
 {
-    height:300px ;
+    display: block;
+    height:600px ;
+    /*width: 600px;*/
         
 }
 
 .content
 {  
-    height: 300px /*100%*/;
-    margin-top:0%;
-    margin-bottom:0%;
+    display: block;
+    flex-direction: column;
+    height: 450px;
+    margin-top:2%;
+    margin-bottom:20%;
+    margin-left: 20%;
  }
 
-.section
-{
 
-    height:600px;
-    display: none;
-    
-}
 
-figure img
+figure img 
 {
     width:100%;
     height:100%;
@@ -418,15 +423,16 @@ figure img
 
 figure 
 {
-    width: 55px;
-    height:100px;
+    width: 200px;
+    height:auto;
+    
 }
 
 .map .iframe
 {
    size: 20%;
    width:40%;
-   margin-top:0px;
+   margin-top:5px;
    margin-bottom:0px;
    margin-left: 0px;
    object-fit:contain; 

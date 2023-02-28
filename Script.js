@@ -4,12 +4,11 @@
 $(".burger-menu ").on("click",".bar",function(){
     $(".menu").slideToggle();
     $(".bar").toggleClass('change');
-    $(".menu li").slideRight();
+    $(".menu li").slideDown(); 
+         
+              });
 
-     });
-
-/*$(document).ready(function () {
-    $("#form").validate({
+   /*$("#form").validate({
         rules: {
         email: {
             required: true,
@@ -29,8 +28,8 @@ $(".burger-menu ").on("click",".bar",function(){
                     }
             }
          
-              
-    });
     });*/
-
     
+    
+
+

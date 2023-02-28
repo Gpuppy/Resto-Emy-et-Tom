@@ -16,6 +16,15 @@
     <img class="mb-4" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/866/8046671866_44d318d5-0f1d-4e48-bd5e-1b7fcea1ec36.png?cb=1673474665" alt="" width="120" height="100">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
+<!--?php 
+if(isset($_GET['admin']) && 1 == (int)$_GET['admin']){
+?>
+<p>Greeting</p>
+<?php if(isset ($_GET['name'])){
+  echo ('Welcome')
+
+}
+?-->
     <div class="form-floating">
       <input id ="floatingInput" class="form-control" type="email" placeholder="name@example.com" required>
       <label for="floatingInput">Email address</label>
@@ -34,6 +43,7 @@
     <h5>or</h5>
     <button class="w-100 btn btn-lg btn-secondary" type="submit">Sign up</button> 
     <p class="mt-5 mb-3 text-muted">© 2017–2022</p>
+    
   </form>
 </main>
 
